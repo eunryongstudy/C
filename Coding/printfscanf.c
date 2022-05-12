@@ -45,6 +45,30 @@ int main(void)
 
 	//프로젝트
 	//조서작성
+	//이름? 나이? 거주지? 직업?
+
+	char name[256];
+	printf("이름이 뭐에요? ");
+	scanf_s("%s", name, sizeof(name));
+	
+	int age;
+	printf("몇살에요?");
+	scanf_s("%d", &age);
+
+	char live[256];
+	printf("어디 사세요? ");
+	scanf_s("%s", live, sizeof(live));
+
+	char job[256];
+	printf("직업이 뭐에요? ");
+	scanf_s("%s", job, sizeof(job));
+
+	// 출력
+	printf("\n\n---- 신상 정보----\n\n");
+	printf(" 이름        : %s\n", name);
+	printf(" 나이        : %d\n", age);
+	printf(" 거주지      : %s\n", live);
+	printf(" 직업        : %s\n", job);
 
 	return 0;
 }
