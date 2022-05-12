@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(void)
+int main_printfscanf(void)
 {
 	//정수형 변수
 	/*int age = 28;
