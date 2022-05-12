@@ -28,12 +28,23 @@ int main(void)
 	scanf_s("%d", &input);
 	printf("입력값 : %d\n", input);*/
 
-	int one, two, three;
+	/*int one, two, three;
 	printf("3개의 정수를 입력하세요 : ");
 	scanf_s("%d %d %d", &one, &two, &three);
 	printf("첫번째 값 : %d\n", one);
 	printf("두번째 값 : %d\n", two);
-	printf("세번째 값 : %d\n", three);
+	printf("세번째 값 : %d\n", three);*/
+
+	//문자 , 문자열
+	/*char c = 'A';
+	printf("%c\n", c);*/
+
+	/*char str[256];
+	scanf_s("%s", str, sizeof(str));
+	printf("%s\n", str);*/
+
+	//프로젝트
+	//조서작성
 
 	return 0;
 }
