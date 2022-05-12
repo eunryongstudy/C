@@ -33,7 +33,7 @@ int main(void){
 		printf("%d 번 학생 조별 발표 준비를 하세요\n", i);
 	}*/
 	//1~30 안에서 6~10까지 조별 발표 7번은 결석
-	for (int i = 1; i <= 30; i++)
+	/*for (int i = 1; i <= 30; i++)
 	{
 		if (i >= 6 && i <= 10)
 		{
@@ -44,6 +44,19 @@ int main(void){
 			}
 			printf("%d 번 학생 조별 발표 준비를 하세요\n", i);
 		}
+	}*/
+	// && ||
+	int a = 10;
+	int b = 10;
+	int c = 12;
+	int d = 13;
+	if (a == b || c == d)
+	{
+		printf("a와 b, 혹은 c와 d가 같습니다\n");
+	}
+	else
+	{
+		printf("값이 서로 다르네요\n");
 	}
 	return 0;
 }

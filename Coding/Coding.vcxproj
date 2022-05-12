@@ -142,6 +142,7 @@
     <ClCompile Include="condition.c" />
     <ClCompile Include="loop.c" />
     <ClCompile Include="printfscanf.c" />
+    <ClCompile Include="random.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
