@@ -1,3 +1,2 @@
-﻿  condition.c
-C:\Users\Eunryong\Desktop\C\Coding\condition.c(90,12): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  function.c
   Coding.vcxproj -> C:\Users\Eunryong\Desktop\C\Coding\x64\Debug\Coding.exe
