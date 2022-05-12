@@ -9,8 +9,12 @@ void function_without_params();
 void function_with_params(int num1, int num2, int num3);
 
 int apple(int total, int ate);// 전체 total - 먹은것 ate
+int add(num1, num2);
+int sub(num1, num2);
+int mul(num1, num2);
+int div(num1, num2);
 
-int main(void)
+int main_function(void)
 {
 	//계산기
 	//int num = 2;
@@ -45,8 +49,23 @@ int main(void)
 	//function_with_params(13, 22, 32);
 
 	//int ret = apple(5, 2);// 5개의 사과 중에서 2개를 먹었어요
-	printf("사과 %d개중에 %d개를 먹으면 %d개가 남아요\n", 10, 4, apple(10, 4));
+	//printf("사과 %d개중에 %d개를 먹으면 %d개가 남아요\n", 10, 4, apple(10, 4));
 	
+
+	//계산기 함수
+	int num = 2;
+	num = add(num, 3);
+	p(num);
+
+	num = sub(num, 1);
+	p(num);
+
+	num = mul(num, 3);
+	p(num);
+
+	num = div(num, 2);
+	p(num);
+
 	return 0;
 }
 //정의
@@ -77,4 +96,20 @@ int apple(int total, int ate)
 {
 	printf("전달값과 변환값이 있는 함수힙니다.\n");
 	return total - ate;
+}
+int add(num1, num2)
+{
+	return num1 + num2;
+}
+int sub(num1, num2)
+{
+	return num1 - num2;
+}
+int mul(num1, num2)
+{
+	return num1 * num2;
+}
+int div(num1, num2)
+{
+	return num1 / num2;
 }
