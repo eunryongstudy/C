@@ -86,6 +86,39 @@ int main(void){
 	case 2: printf("보\n");break;
 	default:printf("몰라요\n");break;
 	}*/
+	//Up and Down
+	srand(time(NULL));
+	int num = rand() % 100 + 1;//1~100
+	printf("숫자 : %d\n", num);
+	int answer = 0;
+	int chance = 5;
+	while (chance > 0)
+	{
+		printf("남은 기회 : %d \n", chance--);
+		printf("숫자를 맞춰 보세요 (1~100) : ");
+		scanf_s("%d", &answer);
 
+		if (answer > num)
+		{
+			printf("Down \n\n");
+		}
+		else if (answer < num)
+		{
+			printf("Up \n\n");
+		}
+		else if (answer == num)
+		{
+			printf("정답입니다.! \n\n");
+			break;
+		}
+		else
+		{
+			printf("알 수 없는 오류가 발생했어요 \n\n");
+		}
+		if (chance == 0)
+		{
+			printf("기회를 모두 소진했습니다. \n\n");
+		}
+	}
 	return 0;
 }
