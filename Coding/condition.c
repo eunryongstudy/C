@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include <time.h>
+#include <stdlib.h>
 int main(void){
 	/*int age = 4;
 	if (age >= 20)
@@ -46,7 +48,7 @@ int main(void){
 		}
 	}*/
 	// && ||
-	int a = 10;
+	/*int a = 10;
 	int b = 10;
 	int c = 12;
 	int d = 13;
@@ -57,6 +59,33 @@ int main(void){
 	else
 	{
 		printf("값이 서로 다르네요\n");
+	}*/
+	/*srand(time(NULL));
+	int i = rand() % 3;
+	if (i == 0)
+	{
+		printf("가위\n");
 	}
+	else if (i == 1)
+	{
+		printf("바위\n");
+	}
+	else if (i == 2)
+	{
+		printf("보\n");
+	}
+	else {
+		printf("몰라요\n");
+	}*/
+	/*srand(time(NULL));
+	int i = rand() % 3;
+	switch (i)
+	{
+	case 0: printf("가위\n");break;
+	case 1: printf("바위\n");break;
+	case 2: printf("보\n");break;
+	default:printf("몰라요\n");break;
+	}*/
+
 	return 0;
 }
