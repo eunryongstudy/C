@@ -1,5 +1,2 @@
-﻿  function_project.c
-C:\Users\Eunryong\Desktop\C\Coding\function_project.c(15,7): warning C4013: 'srand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\Eunryong\Desktop\C\Coding\function_project.c(29,8): warning C4013: 'exit'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\Eunryong\Desktop\C\Coding\function_project.c(48,13): warning C4013: 'rand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+﻿  Array.c
   Coding.vcxproj -> C:\Users\Eunryong\Desktop\C\Coding\x64\Debug\Coding.exe
