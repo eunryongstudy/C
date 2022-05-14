@@ -11,7 +11,7 @@ int main(void)
 	printf("지하철 3호차에 %d명 타고 있습니다.", subway_3);*/
 
 	
-	int subway_array[3];
+	/*int subway_array[3];
 	subway_array[0] = 30;
 	subway_array[1] = 40;
 	subway_array[2] = 50;
@@ -19,6 +19,13 @@ int main(void)
 	for (int i = 0; i < 3; i++)
 	{
 		printf("지하철 %d호차에 %d명 타고 있습니다.", i + 1, subway_array[i]);
+	}*/
+	//값 설정 방법
+	int arr[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+	for (int i = 0; i < 10; i++)
+	{
+		printf("%d\n", arr[i]);
 	}
+
 	return 0;
 }
