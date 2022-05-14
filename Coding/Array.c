@@ -29,10 +29,18 @@ int main(void)
 
 	/*int size = 10;
 	int arr[10];*/
-	int arr[10] = { 1, 2 }; //3번째 값부터 자동으로 '0'으로 초기화됨
-	for (int i = 0; i < 10; i++)
+	//int arr[10] = { 1, 2 }; //3번째 값부터 자동으로 '0'으로 초기화됨
+	//for (int i = 0; i < 10; i++)
+	//{
+	//	printf("%d\n", arr[i]);
+	//}
+
+	//int arr[] = { 1, 2 };
+	
+	float arr_f[5] = { 1.0f, 2.0f, 3.0f };
+	for (int i = 0; i < 5; i++)
 	{
-		printf("%d\n", arr[i]);
+		printf("%.2f\n", arr_f[i]);
 	}
 
 	return 0;
