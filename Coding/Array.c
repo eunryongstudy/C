@@ -21,7 +21,15 @@ int main(void)
 		printf("지하철 %d호차에 %d명 타고 있습니다.", i + 1, subway_array[i]);
 	}*/
 	//값 설정 방법
-	int arr[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+	/*int arr[10];
+	for (int i = 0; i < 10; i++)
+	{
+		printf("%d\n", arr[i]);
+	}*/
+
+	/*int size = 10;
+	int arr[10];*/
+	int arr[10] = { 1, 2 }; //3번째 값부터 자동으로 '0'으로 초기화됨
 	for (int i = 0; i < 10; i++)
 	{
 		printf("%d\n", arr[i]);
