@@ -37,11 +37,29 @@ int main(void)
 
 	//int arr[] = { 1, 2 };
 	
-	float arr_f[5] = { 1.0f, 2.0f, 3.0f };
+	/*float arr_f[5] = { 1.0f, 2.0f, 3.0f };
 	for (int i = 0; i < 5; i++)
 	{
 		printf("%.2f\n", arr_f[i]);
-	}
+	}*/
+
+	////문자열 //문자열 끝에는 '끝'을 의미하는 NULL 문자 '\0'이 포함되어야함
+	//char str[7] = "coding"; // [c][o][d][i][n][g][\0]  
+	//printf("%s\n", str);
+
+	//char str[] = "coding";
+	///*printf("%s\n", str);
+	//printf("%d\n", sizeof(str));*/
+	//for (int i = 0; i < sizeof(str); i++)
+	//{
+	//	printf("%c\n", str[i]);
+	//}
+
+	char kor[] = "은룡";
+	printf("%s\n", kor);
+	printf("%d\n", sizeof(kor));
+	// 영어 1글자당 : 1byte 
+	// 한글 1글자당 : 2byte
 
 	return 0;
 }
