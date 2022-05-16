@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(void) 
+int main_array(void) 
 {
 	//¹è¿­
 	/*int subway_1 = 30;
