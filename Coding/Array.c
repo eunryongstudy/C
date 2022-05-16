@@ -55,11 +55,26 @@ int main(void)
 	//	printf("%c\n", str[i]);
 	//}
 
-	char kor[] = "은룡";
-	printf("%s\n", kor);
-	printf("%d\n", sizeof(kor));
-	// 영어 1글자당 : 1byte 
-	// 한글 1글자당 : 2byte
+	//char kor[] = "은룡";
+	//printf("%s\n", kor);
+	//printf("%d\n", sizeof(kor));
+	//// 영어 1글자당 : 1byte 
+	//// 한글 1글자당 : 2byte
 
+	//char c_array[10] = { 'c','o','d','i','n','g' };
+	///*printf("%s\n", c_array);
+	//for (int i = 0; i < sizeof(c_array);i++)
+	//{
+	//	printf("%c\n", c_array[i]);
+	//}*/
+
+	//for (int i = 0; i < sizeof(c_array);i++)
+	//{
+	//	printf("%d\n", c_array[i]); //ASCII코드 출력 NULL=0
+	//}
+	printf("%d\n", 'a');// a의 정수형 97
+	printf("%d\n", 'A');// A의 정수형 65
+	printf("%d\n", '\0');// NULL의 정수형 0
+	printf("%d\n", '0');// 0의 정수형 48
 	return 0;
 }
