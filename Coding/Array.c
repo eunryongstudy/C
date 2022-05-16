@@ -72,9 +72,14 @@ int main(void)
 	//{
 	//	printf("%d\n", c_array[i]); //ASCII코드 출력 NULL=0
 	//}
-	printf("%d\n", 'a');// a의 정수형 97
-	printf("%d\n", 'A');// A의 정수형 65
-	printf("%d\n", '\0');// NULL의 정수형 0
-	printf("%d\n", '0');// 0의 정수형 48
+	//printf("%d\n", 'a');// a의 정수형 97
+	//printf("%d\n", 'A');// A의 정수형 65
+	//printf("%d\n", '\0');// NULL의 정수형 0
+	//printf("%d\n", '0');// 0의 정수형 48
+	for (int i = 0; i < 128; i++)
+	{
+		printf("아스키코드 정수  %c : %d \n" , i , i);
+	}
+	return 0;
 	return 0;
 }
