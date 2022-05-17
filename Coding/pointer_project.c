@@ -9,7 +9,7 @@ void printfFishes();
 void decreaseWater(long elapsedTime);
 int checkFishalive();
 
-int main(void)
+int main_pointer_project(void)
 {
 	long startTime = 0;//시작시간
 	long totalElapsedTime = 0;//총 경과시간
