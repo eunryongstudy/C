@@ -146,6 +146,7 @@
     <ClCompile Include="function_project.c" />
     <ClCompile Include="loop.c" />
     <ClCompile Include="pointer.c" />
+    <ClCompile Include="pointer_project.c" />
     <ClCompile Include="printfscanf.c" />
     <ClCompile Include="random.c" />
   </ItemGroup>

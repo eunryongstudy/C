@@ -2,7 +2,7 @@
 void swap(int a, int b);
 void swap_addr(int* a, int* b);
 void changeArray(int* ptr);
-int main(void)
+int main_pointer(void)
 {
 	//Æ÷ÀÎÅÍ
 
