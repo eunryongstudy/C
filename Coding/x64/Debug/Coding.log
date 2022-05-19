@@ -2,4 +2,5 @@
 C:\Users\Eunryong\Desktop\C\Coding\m_array_project.c(21,7): warning C4013: 'srand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
 C:\Users\Eunryong\Desktop\C\Coding\m_array_project.c(73,27): warning C4047: '==': 'int (__cdecl *)()'의 간접 참조 수준이 'int'과(와) 다릅니다.
 C:\Users\Eunryong\Desktop\C\Coding\m_array_project.c(128,21): warning C4013: 'rand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  Coding.vcxproj -> C:\Users\Eunryong\Desktop\C\Coding\x64\Debug\Coding.exe
+MSVCRTD.lib(exe_main.obj) : error LNK2019: main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\Eunryong\Desktop\C\Coding\x64\Debug\Coding.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

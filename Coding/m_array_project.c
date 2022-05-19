@@ -16,7 +16,7 @@ void printfQuestion();
 int foundAllAnimals();
 
 
-int main(void)
+int main_m_array_project(void)
 {
 	srand(time(NULL));
 
