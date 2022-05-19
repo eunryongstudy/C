@@ -36,5 +36,10 @@ int main(void)
 	printf("  출시연도 : %d\n", gameInfo2.year);
 	printf("  가격 : %d\n", gameInfo2.price);
 	printf("  제작사 : %s\n", gameInfo2.company);
+
+	struct GameInfo gameArray[2] = {
+		{ "은룡게임", 1995, 500, "은룡회사" } ,
+		{ "은룡게임2", 1996, 300, "은룡회사" }
+	};
 	return 0;
 }
