@@ -18,7 +18,7 @@ typedef struct GameInfomatin {
 	struct GameInfo* friendGame;
 } GAME_INFO; 
 
-int main(void)
+int main_struct(void)
 {
 	
 
