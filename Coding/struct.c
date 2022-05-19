@@ -41,5 +41,19 @@ int main(void)
 		{ "은룡게임", 1995, 500, "은룡회사" } ,
 		{ "은룡게임2", 1996, 300, "은룡회사" }
 	};
+	
+	struct GameInfo* gamePtr;
+	gamePtr = &gameInfo1;
+	printf("-- 포인터 게임 출시 정보--\n");
+	/*printf("  게임명 : %s\n", (* gamePtr).name);
+	printf("  출시연도 : %d\n", (*gamePtr).year);
+	printf("  가격 : %d\n", (*gamePtr).price);
+	printf("  제작사 : %s\n", (*gamePtr).company);*/
+	printf("  게임명 : %s\n", gamePtr->name);
+	printf("  출시연도 : %d\n", gamePtr->year);
+	printf("  가격 : %d\n", gamePtr->price);
+	printf("  제작사 : %s\n", gamePtr->company);
+
+
 	return 0;
 }
