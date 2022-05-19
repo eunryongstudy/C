@@ -1,3 +1,4 @@
-﻿  file.c
-C:\Users\Eunryong\Desktop\C\Coding\file.c(10,7): warning C4101: 'line' :참조되지 않은 지역 변수입니다.
+﻿  file_project.c
+C:\Users\Eunryong\Desktop\C\Coding\file_project.c(22,12): warning C4013: 'getch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Eunryong\Desktop\C\Coding\file_project.c(37,12): warning C4013: 'strcmp'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
   Coding.vcxproj -> C:\Users\Eunryong\Desktop\C\Coding\x64\Debug\Coding.exe
